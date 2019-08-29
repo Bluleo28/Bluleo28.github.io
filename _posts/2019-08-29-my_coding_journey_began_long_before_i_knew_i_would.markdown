@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "My Coding Journey Began Long Before I Knew I Would"
-date:       2019-08-29 05:16:20 +0000
+date:       2019-08-29 01:16:21 -0400
 permalink:  my_coding_journey_began_long_before_i_knew_i_would
 ---
 
