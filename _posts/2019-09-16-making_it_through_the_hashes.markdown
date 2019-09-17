@@ -19,17 +19,18 @@ For the second challenge I had to create a set variable called the_manifest equa
 
 ```def shipping_manifest
   the_manifest = {"oil paintings" => 3, "porcelain vases" => 2, "whale bone corsets" => 5}
-end ```
+end```
+
 
 The third challenge wanted me to use the same shipping_manifest hash that I used in the previous challenge for the retrieval method. So for the part of the lab I had to use the [ ] hash method to look up and retuen the value of the "oil paintings" key of the shipping_manifest hash.
-
 ```def retrieval
   shipping_manifest = {
     "whale bone corsets"=> 5,
     "porcelain vases" => 2,
     "oil paintings" => 3
   }
-shipping_manifest["oil paintings"]
+
+  shipping_manifest["oil paintings"]
 end```
 
 The fourth challenge once again wanted me to use the shipping_manifest hash to start in the adding method. Then I used yje { ]= method ot add the following data to the hash:
@@ -45,10 +46,14 @@ Which resulted in my final hash looking like this:
     "porcelain vases" => 2,
     "oil paintings" => 3
   }
+
   shipping_manifest["muskets"] = 2
-	shipping_manifest["gun powder"] = 4
+
+  shipping_manifest["gun powder"] = 4
+
   shipping_manifest
-	end ```
-	
+
+end```
+
 And there you have it on how how I did my first hash!
 
