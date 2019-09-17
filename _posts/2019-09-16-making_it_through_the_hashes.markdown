@@ -10,10 +10,9 @@ Alright! So this one was a little bit of a challenge but I was able to make it t
 
 My first challenge was started off with me having to use the literal constructor to set a variable called your_hash equal to a hash with key/value pairs of my choice in the my_hash method.
 
-```def my_hash
-
-  hash = {"dog" => "Pluto", "cat" => "Maru"}
-end```
+ ```def my_hash
+ hash = {"dog" => "Pluto", "cat" => "Maru"}
+ end```
 
 For the second challenge I had to create a set variable called the_manifest equal to hash in the shipping_manifest method.
 
@@ -23,13 +22,14 @@ end```
 
 
 The third challenge wanted me to use the same shipping_manifest hash that I used in the previous challenge for the retrieval method. So for the part of the lab I had to use the [ ] hash method to look up and retuen the value of the "oil paintings" key of the shipping_manifest hash.
+
+
 ```def retrieval
   shipping_manifest = {
     "whale bone corsets"=> 5,
     "porcelain vases" => 2,
     "oil paintings" => 3
   }
-
   shipping_manifest["oil paintings"]
 end```
 
@@ -41,20 +41,18 @@ gun powder	4
 
 Which resulted in my final hash below.
 
+
 ```def adding
-  shipping_manifest = {
+   shipping_manifest = {
     "whale bone corsets"=> 5,
     "porcelain vases" => 2,
     "oil paintings" => 3
   }
-
-  shipping_manifest["muskets"] = 2
-
+	shipping_manifest["muskets"] = 2
   shipping_manifest["gun powder"] = 4
-
   shipping_manifest
-
 end```
+
 
 And there you have it on how how I did my first hash!
 
