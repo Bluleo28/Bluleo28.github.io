@@ -33,13 +33,13 @@ The third challenge wanted me to use the same shipping_manifest hash that I used
   shipping_manifest["oil paintings"]
 end```
 
-The fourth challenge once again wanted me to use the shipping_manifest hash to start in the adding method. Then I used yje { ]= method ot add the following data to the hash...
+The fourth challenge once again wanted me to use the shipping_manifest hash to start in the adding method. Then I used yje { ]= method ot add the following data to the hash.
 
 Inventory	Quantity
 muskets	2
 gun powder	4
 
-Which resulted in my final hash looking like this...
+Which resulted in my final hash below.
 
 ```def adding
   shipping_manifest = {
