@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "Making it through the Hashes "
-date:       2019-09-17 02:29:21 +0000
+date:       2019-09-16 22:29:22 -0400
 permalink:  making_it_through_the_hashes
 ---
 
@@ -11,25 +11,25 @@ Alright! So this one was a little bit of a challenge but I was able to make it t
 My first challenge was started off with me having to use the literal constructor to set a variable called your_hash equal to a hash with key/value pairs of my choice in the my_hash method.
 
 ```def my_hash
-<<<<<<< HEAD
+
   hash = {"dog" => "Pluto", "cat" => "Maru"}
 end```
 
 For the second challenge I had to create a set variable called the_manifest equal to hash in the shipping_manifest method.
 
-```def shipping_manifest 
+```def shipping_manifest
   the_manifest = {"oil paintings" => 3, "porcelain vases" => 2, "whale bone corsets" => 5}
 end ```
 
 The third challenge wanted me to use the same shipping_manifest hash that I used in the previous challenge for the retrieval method. So for the part of the lab I had to use the [ ] hash method to look up and retuen the value of the "oil paintings" key of the shipping_manifest hash.
 
-```def retrieval               
+```def retrieval
   shipping_manifest = {
     "whale bone corsets"=> 5,
     "porcelain vases" => 2,
     "oil paintings" => 3
   }
-  
+
   shipping_manifest["oil paintings"]
 end```
 
